@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferrari - Hızın ve Lüksün Zirvesi</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;700&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+
+        .banner {
+            width: 100%;
+            height: 75vh;
+            background: url('ferrari.jpg') no-repeat center center/cover;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: scale(0.8); }
+            100% { opacity: 1; transform: scale(1); }
+        }
+
+        .title {
+            font-size: 3rem;
+            font-weight: bold;
+            color: red;
+            text-shadow: 3px 3px 8px black;
+            animation: slideDown 1.5s ease-in-out;
+        }
+
+        @keyframes slideDown {
+            0% { opacity: 0; transform: translateY(-50px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+
+        .content {
+            padding: 40px;
+            max-width: 900px;
+            margin: auto;
+            font-size: 1.2rem;
+            text-align: justify;
+            line-height: 1.8;
+            background: rgba(255, 0, 0, 0.1);
+            border-radius: 10px;
+            animation: fadeInText 2s ease-in-out;
+        }
+
+        @keyframes fadeInText {
+            0% { opacity: 0; transform: translateY(30px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            margin: 30px;
+            font-size: 1.5rem;
+            color: white;
+            background: linear-gradient(45deg, red, darkred);
+            border: none;
+            cursor: pointer;
+            transition: 0.4s;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background: gold;
+            color: black;
+            transform: scale(1.1);
+        }
+
+        footer {
+            margin-top: 50px;
+            padding: 20px;
+            background: #222;
+        }
+
+        .highlight {
+            color: gold;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="banner"></div>
+
+    <h1 class="title">Ferrari: Hız, Güç ve Prestij</h1>
+
+    <div class="content">
+        <h2>🏁 Ferrari'nin Tarihi</h2>
+        <p>Ferrari, 1947 yılında Enzo Ferrari tarafından kuruldu. İlk modeli olan <span class="highlight">125 S</span>, V12 motoruyla performans tutkunlarını büyüledi. O günden bu yana Ferrari, sadece bir otomobil markası değil, hızın ve lüksün sembolü haline geldi.</p>
+
+        <h2>🏎️ Ferrari'nin İkonik Modelleri</h2>
+        <p>Ferrari, her dönemde efsanevi modeller üretmiştir. Bunlardan bazıları:</p>
+        <ul>
+            <li>🔴 <span class="highlight">Ferrari 250 GTO</span> - Tarihin en pahalı otomobillerinden biri.</li>
+            <li>⚡ <span class="highlight">Ferrari LaFerrari</span> - Hibrit teknolojisiyle süper spor dünyasında devrim yarattı.</li>
+            <li>🔥 <span class="highlight">Ferrari SF90 Stradale</span> - 1000 beygir gücüyle Ferrari'nin en güçlü yol otomobillerinden biri.</li>
+        </ul>
+
+        <h2>🏆 Formula 1 ve Ferrari</h2>
+        <p>Ferrari, <span class="highlight">Formula 1</span>'in en köklü ve başarılı takımlarından biridir. 16 kez takımlar şampiyonluğu kazanan Scuderia Ferrari, efsanevi pilotlarla tarihe adını yazdırmıştır: <span class="highlight">Michael Schumacher</span>, <span class="highlight">Niki Lauda</span>, <span class="highlight">Fernando Alonso</span> ve <span class="highlight">Charles Leclerc</span>.</p>
+
+        <h2>⚙️ Ferrari'nin Teknolojisi</h2>
+        <p>Ferrari'nin üstün mühendisliği, F1 teknolojilerini yol otomobillerine entegre etmesiyle ünlüdür. Aerodinamik tasarım, karbon fiber gövde ve hibrit motorlar Ferrari'nin performansının temel taşlarıdır.</p>
+
+        <a href="https://www.ferrari.com" target="_blank" class="btn">Resmi Ferrari Sitesi</a>
+    </div>
+
+    <footer>
+        <p>© 2025 Ferrari Passion | Tüm hakları saklıdır.</p>
+    </footer>
+
+</body>
+</html>

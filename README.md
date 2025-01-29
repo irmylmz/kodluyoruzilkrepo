@@ -1,7 +1,8 @@
 # kodluyoruzilkrepo
 Kodluyoruz Eğitimi kapsamında açtığım ilk repo
 
-![kodluyoruz image](https://github.com/Kodluyoruz/taskforce/raw/main/git/odev1/figures/github.png)
+![Ferrari Page 1](PageImage.png)
+![Ferrari Page 2](PageImage2.png)
 
 
 ## Installation
@@ -15,16 +16,11 @@ git clone https://github.com/irmylmz/kodluyoruzilkrepo.git
 ## Usage
 Projeyi cloneladıktan sonra Visual Studio Code programında açınız.
 
-Linux için:
+Linux veya MacOs için:
 ```
 cd kodluyoruzilkrepo
 code .
 ```
-
-
-## Contributing
-Pull requestler kabul edilir. Büyük değişiklikler için, lütfen önce neyi değiştirmek istediğinizi tartışmak için bir konu açınız.
-
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
